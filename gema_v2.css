@@ -196,6 +196,13 @@ yt-live-chat-text-message-renderer[author-type=owner] #content::after {
 
  }
 
+ yt-live-chat-text-message-renderer {
+     /* width: 100%; */
+     /* break-after: always ; */
+     /* float: left; */
+     opacity: 1 !important;
+ }
+
  yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=member],
  yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=moderator],
  yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type=owner] {
@@ -275,10 +282,10 @@ yt-live-chat-text-message-renderer #author-photo::after {
     overflow: visible;
 } */
 
- @keyframes anim {
+ @keyframes animpopout {
 
      0% {
-         opacity: 1;
+         /* opacity: 0.5; */
          transform: translateY(36px);
          transform: scale(0.3);
      }
@@ -288,16 +295,16 @@ yt-live-chat-text-message-renderer #author-photo::after {
      }
 
      100% {
-         opacity: 1;
+         /* opacity: 1; */
          transform: none;
      }
  }
 
- yt-live-chat-legacy-paid-message-renderer,
+ /* yt-live-chat-legacy-paid-message-renderer, */
  yt-live-chat-text-message-renderer {
      padding-left: 4px !important;
      padding-right: 4px !important;
-     animation: 500ms both anim;
+     animation: 500ms animpopout !important;
      transform-origin: bottom left;
 
  }
