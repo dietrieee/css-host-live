@@ -1,0 +1,1153 @@
+/*
+
+Made by : Dietrieee
+twitter:  @dietrieee
+
+for Juliana Shafira
+
+*/
+
+
+
+/* styler */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+
+}
+
+yt-live-chat-renderer {
+  background-color: transparent !important;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+yt-live-chat-text-message-renderer,
+yt-live-chat-text-message-renderer[is-highlighted] {
+  background-color: transparent !important;
+
+}
+
+
+
+@keyframes flower {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+
+
+  100% {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+@keyframes shaking {
+  0% {
+    opacity: 1;
+    transform: rotate(30deg);
+  }
+
+  25% {
+    transform: rotate(0deg);
+
+  }
+
+  50% {
+    transform: rotate(-30deg);
+
+  }
+
+  75% {
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(30deg);
+  }
+}
+
+
+
+@keyframes flower {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+
+  }
+
+
+  100% {
+    transform: rotate(360deg);
+
+  }
+}
+
+yt-live-chat-text-message-renderer[author-type="member"] #content {
+
+  box-shadow: 0px 0px 0px 3px #FA7294, 0px 0px 0px 8px #FFFFFF, 6px 6px 0px 6px #FA7294, 6px 6px 0px 10px #DE5678;
+
+
+
+}
+
+yt-live-chat-text-message-renderer[author-type="moderator"] #content {
+  box-shadow: 0px 0px 0px 3px #65BEED, 0px 0px 0px 8px #FFFFFF, 6px 6px 0px 6px #65BEED, 6px 6px 0px 10px #54A5D0;
+
+
+}
+
+yt-live-chat-text-message-renderer[author-type="owner"] #content {
+  box-shadow: 0px 0px 0px 3px #9E60D6, 0px 0px 0px 8px #FFFFFF, 6px 6px 0px 6px #9E60D6, 6px 6px 0px 10px #934dd0;
+
+
+
+}
+
+@keyframes swing {
+  0% {
+    /* opacity: 1; */
+    transform: rotate(-10deg);
+  }
+
+
+
+  50% {
+
+    transform: rotate(10deg);
+
+  }
+
+  100% {
+
+    transform: rotate(-10deg);
+    /* transform: none; */
+  }
+}
+
+
+
+
+
+yt-live-chat-text-message-renderer #content {
+  background-color: #FFFFFF;
+  max-width: 500px !important;
+  min-width: 150px !important;
+  min-height: 40px !important;
+  color: white !important;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px 3px #BE86F1, 0px 0px 0px 8px #FFFFFF, 6px 6px 0px 6px #BE86F1, 6px 6px 0px 10px #9E60D6;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 26px;
+  margin-bottom: 44px;
+  margin-left: 38px;
+  position: relative;
+
+  border-radius: 24px;
+  animation: bg 1s;
+}
+
+@keyframes bg {
+  from {
+    background-position: 100% 100%;
+    background-size: 0em;
+
+  }
+
+  to {
+    background-position: 98% 98%;
+    background-size: 15%;
+
+  }
+}
+
+yt-live-chat-text-message-renderer #content::before {
+  position: absolute;
+  content: url("data:image/svg+xml,%3csvg  viewBox='0 0 87 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M1.23978e-05 5.06528L1.33565 5.43998C2.00388 5.62738 2.60839 6.01458 3.07844 6.55626C3.54848 7.09794 3.86461 7.77169 3.98983 8.49864L4.22365 9.85588L4.45861 8.49742C4.58505 7.77201 4.90158 7.1 5.37131 6.55975C5.84104 6.01951 6.44461 5.63327 7.11164 5.44609L8.44843 5.07138L7.10936 4.70522C6.44188 4.52238 5.8367 4.14031 5.36436 3.60353C4.89202 3.06675 4.57196 2.39737 4.4415 1.67342L4.22365 0.46875L4.00694 1.6722C3.87645 2.39647 3.55628 3.06614 3.08372 3.60314C2.61117 4.14014 2.00572 4.52236 1.33794 4.70522L1.23978e-05 5.06528Z' fill='%23BE86F1'/%3e%3cline y1='-0.469356' x2='74.1583' y2='-0.469356' transform='matrix(-1 0 0 1 86.3615 6.10156)' stroke='%23BE86F1' stroke-width='0.938713' stroke-dasharray='1.88 1.88'/%3e%3c/svg%3e");
+
+  bottom: -38px;
+  left: -2px;
+  width: 184px;
+  height: 20px;
+  animation: slide 1s;
+  transform-origin: left;
+}
+
+@keyframes slide {
+  0% {
+    clip-path: circle(2% at 0%);
+  }
+
+  100% {
+    clip-path: circle(100%);
+  }
+
+}
+
+@keyframes center {
+  0% {
+    clip-path: circle(2% at 0%);
+  }
+
+  100% {
+    clip-path: circle(100%);
+  }
+
+}
+
+yt-live-chat-text-message-renderer #content::after {
+  position: absolute;
+  content: url("data:image/svg+xml,%3csvg  viewBox='0 0 24 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect x='1.92246' y='1.87891' width='2.7188' height='2.7188' transform='rotate(45 1.92246 1.87891)' fill='%23BE86F1'/%3e%3crect x='21.2822' y='1.87891' width='2.7188' height='2.7188' transform='rotate(45 21.2822 1.87891)' fill='%23BE86F1'/%3e%3crect x='11.5441' y='0.128906' width='5.31016' height='5.31016' transform='rotate(45 11.5441 0.128906)' fill='%23BE86F1'/%3e%3c/svg%3e");
+
+  right: -60px;
+  top: 12px;
+  width: 50px;
+  height: 20px;
+  z-index: 9999999;
+  transform: rotate(90deg);
+  animation: center 2s;
+
+}
+
+/* after */
+yt-live-chat-text-message-renderer[author-type="member"] #content::after {
+  content: url("data:image/svg+xml,%3csvg viewBox='0 0 24 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect x='1.92246' y='1.88672' width='2.7188' height='2.7188' transform='rotate(45 1.92246 1.88672)' fill='%23FA7294'/%3e%3crect x='21.2822' y='1.88672' width='2.7188' height='2.7188' transform='rotate(45 21.2822 1.88672)' fill='%23FA7294'/%3e%3crect x='11.5441' y='0.136719' width='5.31016' height='5.31016' transform='rotate(45 11.5441 0.136719)' fill='%23FA7294'/%3e%3c/svg%3e");
+}
+
+
+yt-live-chat-text-message-renderer[author-type="moderator"] #content::after {
+  content: url("data:image/svg+xml,%3csvg  viewBox='0 0 24 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect x='1.92246' y='1.88281' width='2.7188' height='2.7188' transform='rotate(45 1.92246 1.88281)' fill='%2365BEED'/%3e%3crect x='21.2822' y='1.88281' width='2.7188' height='2.7188' transform='rotate(45 21.2822 1.88281)' fill='%2365BEED'/%3e%3crect x='11.5441' y='0.132812' width='5.31016' height='5.31016' transform='rotate(45 11.5441 0.132812)' fill='%2365BEED'/%3e%3c/svg%3e");
+}
+
+yt-live-chat-text-message-renderer[author-type="owner"] #content::after {
+  content: url("data:image/svg+xml,%3csvg  viewBox='0 0 24 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect x='1.92249' y='1.75' width='2.7188' height='2.7188' transform='rotate(45 1.92249 1.75)' fill='%23911DCA'/%3e%3crect x='21.2822' y='1.75' width='2.7188' height='2.7188' transform='rotate(45 21.2822 1.75)' fill='%23911DCA'/%3e%3crect x='11.5441' width='5.31016' height='5.31016' transform='rotate(45 11.5441 0)' fill='%23911DCA'/%3e%3c/svg%3e");
+
+}
+
+/* before */
+yt-live-chat-text-message-renderer[author-type="member"] #content::before {
+  content: url("data:image/svg+xml,%3csvg  viewBox='0 0 87 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M1.23978e-05 5.06528L1.33565 5.43998C2.00388 5.62738 2.60839 6.01458 3.07844 6.55626C3.54848 7.09794 3.86461 7.77169 3.98983 8.49864L4.22365 9.85588L4.45861 8.49742C4.58505 7.77201 4.90158 7.1 5.37131 6.55975C5.84104 6.01951 6.44461 5.63327 7.11164 5.44609L8.44843 5.07138L7.10936 4.70522C6.44188 4.52238 5.8367 4.14031 5.36436 3.60353C4.89202 3.06675 4.57196 2.39737 4.4415 1.67342L4.22365 0.46875L4.00694 1.6722C3.87645 2.39647 3.55628 3.06614 3.08372 3.60314C2.61117 4.14014 2.00572 4.52236 1.33794 4.70522L1.23978e-05 5.06528Z' fill='%23FA7294'/%3e%3cline y1='-0.469356' x2='74.1583' y2='-0.469356' transform='matrix(-1 0 0 1 86.3615 6.10547)' stroke='%23FA7294' stroke-width='0.938713' stroke-dasharray='1.88 1.88'/%3e%3c/svg%3e");
+}
+
+
+yt-live-chat-text-message-renderer[author-type="moderator"] #content::before {
+  content: url("data:image/svg+xml,%3csvg  viewBox='0 0 87 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cline y1='-0.469356' x2='74.1583' y2='-0.469356' transform='matrix(-1 0 0 1 86.3615 6.77734)' stroke='%2365BEED' stroke-width='0.938713' stroke-dasharray='1.88 1.88'/%3e%3cpath d='M1.23978e-05 5.06919L1.33565 5.44389C2.00388 5.63129 2.60839 6.01848 3.07844 6.56016C3.54848 7.10184 3.86461 7.77559 3.98983 8.50255L4.22365 9.85978L4.45861 8.50133C4.58505 7.77592 4.90158 7.10391 5.37131 6.56366C5.84104 6.02341 6.44461 5.63718 7.11164 5.44999L8.44843 5.07529L7.10936 4.70913C6.44188 4.52629 5.8367 4.14421 5.36436 3.60743C4.89202 3.07065 4.57196 2.40128 4.4415 1.67732L4.22365 0.472656L4.00694 1.6761C3.87645 2.40038 3.55628 3.07005 3.08372 3.60705C2.61117 4.14405 2.00572 4.52626 1.33794 4.70913L1.23978e-05 5.06919Z' fill='%2365BEED'/%3e%3c/svg%3e");
+}
+
+yt-live-chat-text-message-renderer[author-type="owner"] #content::before {
+  content: url("data:image/svg+xml,%3csvg  viewBox='0 0 87 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cline y1='-0.469356' x2='74.1583' y2='-0.469356' transform='matrix(-1 0 0 1 86.3615 5.63281)' stroke='%23911DCA' stroke-width='0.938713' stroke-dasharray='1.88 1.88'/%3e%3cpath d='M1.24293e-05 4.59653L1.33565 4.97123C2.00388 5.15863 2.60839 5.54583 3.07844 6.08751C3.54848 6.62919 3.86461 7.30294 3.98983 8.02989L4.22365 9.38713L4.45861 8.02867C4.58505 7.30326 4.90158 6.63125 5.37131 6.091C5.84104 5.55075 6.44461 5.16452 7.11164 4.97734L8.44843 4.60263L7.10936 4.23647C6.44188 4.05363 5.8367 3.67155 5.36436 3.13478C4.89202 2.598 4.57196 1.92863 4.4415 1.20467L4.22365 0L4.00694 1.20345C3.87645 1.92772 3.55628 2.59739 3.08372 3.13439C2.61117 3.67139 2.00572 4.05361 1.33794 4.23647L1.24293e-05 4.59653Z' fill='%23911DCA'/%3e%3c/svg%3e");
+
+}
+
+yt-live-chat-text-message-renderer[author-type="owner"],
+yt-live-chat-text-message-renderer[author-type="owner"][is-highlighted] {
+  background-color: transparent !important;
+}
+
+yt-live-chat-text-message-renderer[author-type="moderator"],
+yt-live-chat-text-message-renderer[author-type="moderator"][is-highlighted] {
+  background-color: transparent !important;
+}
+
+yt-live-chat-text-message-renderer[author-type="member"],
+yt-live-chat-text-message-renderer[author-type="member"][is-highlighted] {
+  background-color: transparent !important;
+}
+
+
+
+
+
+yt-live-chat-text-message-renderer {
+  /* width: 100%; */
+  /* break-after: always ; */
+  /* float: left; */
+  opacity: 1 !important;
+}
+
+@keyframes authorname {
+  0% {
+    /* opacity: 0; */
+    /* transform: translateY(-26px); */
+    /* z-index: -1 !important; */
+    transform: translateY(-26px);
+  }
+
+
+
+  50% {
+    /* z-index: -1; */
+    transform: translateY(26px);
+
+
+  }
+
+  100% {
+    /* z-index: -1; */
+
+    /* opacity: 1; */
+    transform: none;
+  }
+}
+
+@keyframes slidebottom {
+  0% {
+    clip-path: circle(2% at 0% 0%);
+  }
+
+  100% {
+    clip-path: circle(100%);
+  }
+
+}
+
+yt-live-chat-author-chip #author-name {
+  animation: authorname 350ms;
+  /* background-color: transparent !important;
+    padding-left: 50px !important; */
+}
+
+/* Outlines */
+yt-live-chat-renderer * {
+  font-size: 24px !important;
+}
+
+yt-live-chat-text-message-renderer #content,
+yt-live-chat-legacy-paid-message-renderer #content {
+  overflow: initial !important;
+}
+
+/* Hide scrollbar. */
+yt-live-chat-item-list-renderer #items {
+  overflow: hidden !important;
+}
+
+yt-live-chat-item-list-renderer {
+  margin-top: 32px !important;
+  /* display: flex; */
+}
+
+yt-live-chat-item-list-renderer #item-scroller {
+  overflow: hidden !important;
+}
+
+/* Hide header and input. */
+yt-live-chat-header-renderer,
+yt-live-chat-message-input-renderer {
+  display: none !important;
+}
+
+
+@keyframes popout {
+  0% {
+    opacity: 1;
+    transform: translateY(36px);
+    transform: scale(0.35);
+  }
+
+  50% {
+    transform: translateY(-20px) scale(1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+/* Reduce side padding. */
+yt-live-chat-text-message-renderer,
+yt-live-chat-legacy-paid-message-renderer {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+  animation: popout 350ms;
+  animation-fill-mode: both;
+  transform-origin: left bottom;
+}
+
+yt-live-chat-paid-message-renderer #header {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+
+/* yt-live-chat-text-message-renderer */
+
+/* Avatars. */
+
+
+
+yt-live-chat-text-message-renderer #author-photo,
+yt-live-chat-paid-message-renderer #author-photo,
+yt-live-chat-legacy-paid-message-renderer #author-photo {
+  display: none !important;
+}
+
+/* Hide badges. */
+yt-live-chat-text-message-renderer #author-badges {
+  display: none !important;
+  vertical-align: middle !important;
+}
+
+/* Timestamps. */
+yt-live-chat-text-message-renderer #timestamp {
+  display: none !important;
+}
+
+/* Badges. */
+/* yt-live-chat-text-message-renderer #author-name[type="owner"],
+yt-live-chat-text-message-renderer #author-name.owner, */
+yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="owner"] {
+  display: none;
+}
+
+yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="moderator"] {
+  font-weight: bold;
+  position: absolute;
+  font-size: 52px;
+  size: 34px;
+  left: 0px;
+  bottom: -15px;
+  color: #54A5D0;
+  /* background: linear-gradient(90deg, #219BEE 0%, #B998F2 100%); */
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: 3px solid #65BEED;
+  padding: 4px;
+
+
+}
+
+yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="moderator"] yt-icon {
+  width: 14px !important;
+  height: auto !important;
+  z-index: 9 !important;
+
+
+
+}
+
+yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="member"] {
+  font-weight: bold;
+  position: absolute;
+  font-size: 52px;
+  size: 54px;
+  width: fit-content;
+  right: -20px;
+  bottom: -26px;
+  padding: 2px;
+  border-radius: 18px;
+
+  /* background: linear-gradient(90deg, #B797F2 0%, #EBB6D2 100%); */
+
+
+
+}
+
+yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="member"] img {
+
+  width: 46px !important;
+  /* animation: shaking 5s infinite; */
+
+  height: 46px !important;
+
+}
+
+
+
+/* Channel names. */
+yt-live-chat-text-message-renderer #author-name.owner {
+  background-color: #9E60D6 !important;
+
+  border: 2px dashed #FFFFFF;
+  word-break: keep-all !important;
+  width: max-content !important;
+
+  box-shadow: 0px 0px 0px 4px #9E60D6;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  /* width: 100% !important; */
+
+}
+
+yt-live-chat-text-message-renderer #author-name.member {
+
+  background-color: #FA7294 !important;
+
+  border: 2px dashed #FFFFFF;
+
+  box-shadow: 0px 0px 0px 4px #FA7294;
+
+}
+
+yt-live-chat-text-message-renderer #author-name.moderator {
+
+  background-color: #65BEED !important;
+
+  border: 2px dashed #FFFFFF;
+
+  box-shadow: 0px 0px 0px 4px #65BEED;
+}
+
+
+
+
+@keyframes author {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  25% {
+    opacity: 1;
+    transform: translateY(-16px);
+
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(16px);
+
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+#reaction-control-panel-overlay {
+  display: none !important;
+}
+
+yt-live-chat-text-message-renderer #author-name::before {
+  content: url("data:image/svg+xml,%3csvg  viewBox='0 0 15 19' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3crect width='15' height='19' fill='url(%23pattern0)'/%3e%3cdefs%3e%3cpattern id='pattern0' patternContentUnits='objectBoundingBox' width='1' height='1'%3e%3cuse xlink:href='%23image0_2764_2' transform='matrix(0.011838 0 0 0.00934579 -0.0208723 0)'/%3e%3c/pattern%3e%3cimage id='image0_2764_2' width='88' height='107' xlink:href='data:image/png%3bbase64%2ciVBORw0KGgoAAAANSUhEUgAAAFgAAABrCAYAAADze0U3AAAgAElEQVR4nO19eZicVZnv75zzrbVXV1d39b6mu9PZE0hIAjFhibKJooQR0AHHCzM6js44M95ZvLdxZpwRx12vAyLqDKNIRAWBCAQIgSRA9pC1093pfa%2bqrv1bz7l/VAcjsjkCVfeZ%2b3uefvJUV3d97/vLe85519ME/4%2bg5%2baNWoVfFwDgjxSItztqb9my1S21XG8EVmoB3gwEQE5e3rImFMQf%2bwK4hnPy3sx4fn1LY9WJF18aS5davteDVGoB3gwIIMSKyr35WCDEJOmjjs3XGo6oefDzz0Y2btx4644dO5xSy/haKGsLXru2Xh8dTTsAcPvW4%2b5jR%2bjgfzxyeIYLkmlatqA61t5a89hje0NT08mdpZb1tVC2BP/NjSu6JSLdcPjGT7xw%2b44dAgAmJib46GRqwDSlAa061n7Dhy9fd/LUhLehoeLFEydGZkot86uBllqA1wKR2Hl/cEnzban1wx985XtP7j19Zjae328YlvGJT1zVFY1GlpRCxjeDsiV4YDyd8aqScB3%2btb%2b/ZfXF5753562rpEIuH7EtV1FVWZoaT5StN1G2BHt0sn3H/qlfWbYTTmXNe176%2bUe3iP5/CYrk90OX/vkfflCi9CMFw/Jte%2bT52/ceGHyy1PK%2bFsp2Dz54Km4RiRQqI4EPdi1pjTn%2bqmsaF3ffTDTfX42PpW6srAyGZqYz%2bOlPn/3O8y8cO1RqeV8LZWvBQoAs625aV9O5INS1rBuBYECxLFFn2yLk9XpRVx9DY2M1zl/RvLnUsr4eytaCM2Obrli0uOHfNr5rCYOkoKYuCspkECLDHwyASQxVNVFITDmvtso/snPX8bK04rIk%2bMt/d01DzrC3X/%2b%2b1d7BoQRsBwB0xGcM5FIWOGcQLsfY4BS6lraRyZHku%2btisXv3HjyRKrXsr0TZEXz//dcpfcdTv9jy3hWdjEmwOUNFw3UYGyLIxDnMnArbCCMUWwfuDsMVCpauvEIShfzVN1981Z3/uW1bWXkUpNQCnAvR00O/WNj313Wx4D91tsfoyVNjcNnluOzaK%2bH1hiAcA5QAms8Lwmwc3XkMDjmA6oYOCFdgbmrix8s3nbiJkB5eal3OoqwOuc%2bOPHlea334HxZ3VtN9Bwcx0teB/c8LuDYHty0wJkPRFBBmgzAGO%2bti5y/DSI4NIRCqQF1T6/WHH664tNR6nIuyIbjnxjWBi85ruW1Vd6109OQUevsU9I7XQUAgnyoUDzgqQfbIYJIMAgozySEcDbsep8hNDiHS1EEbl2/8zC/v7KkstT5nUTYEy366NhLQrgIElnY2YGSSgQIg4LANC4K7ABcABAgA7jhIp0zIjOLkwCAqW7oguAvV7z%2bPqJmmEqvzMsqG4JMDCfvY6fEx03BQFVGxeUMAlpuFwiTYRgG2aYCL4qEhBIdrWXBtCkYEPrqlE6o/AtexkI5Pzb544HSg1PqcRdkQzCgZsHPGTL5QgOACa88LcoUlQARgG3k4hglhu3C5C9ex4FomHJtjLpvFgvXdAKWwzTwK2fhAtNI/W2p9zqJsCI7I3qwEizDXhWHYCPo1uvliA0IICC5gpBOY7n8eE8d2w8wkIVyOfMHFey5j0MIV4K4NIQQsGLoW0pOl1ucsyoZgfw3ywrEzOrFRyBvQVAn19QSmM4rM9BiY7EHrKhsNiwAtEIGRnMCpkVG0n1cNqqhwHQuUClhmsjBnmv%2bf4N9C7dVGMmdtz8zNcZUBpumgpaUaN92UwdJ1ScSaDs8fcoDE9iPcxPHpz1bCX9cK7joQ3AWR03xosPeRXO4/CiXW5mWUDcE9PT08lxdH44lsWhEmHNsBJRSt7S0oZA1gPnQQAhBEgl2QEGhcBEgMrmWCKQJmdiA/dPDQ3p4e/PcNNO68dZX8d3%2b0bsOFK5vej1dEkrmcO5XJOTkrk0Y%2bkwMAqJoMCA7ucBiZHIxUFiAR2HkDTNchBGDlsyCYRqp3P7KJOeOVz/zA%2btYr7v702vc9/XTPO17kfcceeOetq4IvjBo3DZn0mndf2N698by28Sf3DQ3%2by/d2Hjz7M8JGDhCjMzPJumCdFxQChAgEoyEMnTiKyromMMWP3Kl%2bBGraAFCAO6CKi/iZvUgP9w9Pp/KJc597z99sWrO4q/KL1bWRSH88/Qdf//yHti9orbz/ipu%2b%2bY6U%2b992gr/04aXe00n7Q4cnzU90t4Rrrr%2bsozpQGQWBqPNqyv/2Muczn7trdz8AtDeGU4f6k6ms5aBRSFCCVfAEQtBUBbLqQz6Vg6SpoPBA9ocBIWDm5pCaO4rJQ7v5Y08OnBHur120H/ZcsrSrPnh3V3NkMdVUVC1a%2bYFYbO7Ck0deuu7H3/ofP2FyxQNbbvvi25qBe9uyad/45JpAVdh3jSNYz8blVVuu2dDWtWphzOePREAog6AUAU10pRKpplTOPTUwnppcvTDY7HLxwcvX1DUGdBkeXwDU4wWoBKaG%2bbafuZPhilCisqnFxxQJ3DWJ48zCKyZQFQm44wVy1EsyTz26ezD7F9cvvaCrMfiVlZ3RVSBEEEYJ7DStaGkNdKy%2bqKmqKra8kJrqWtjVpV9345aRhx/ebr4dPLzlBN//52v1UMT/wZf6U99uiOjX3bipeVVjbSis6wo0nxey7gcBgePYMJJJRHyscXgirTXXBuscjo%2b9f23DSp9H0U2Hk2Qmh7mMyfv6QZ55SiXj066/pbky5BgOTY%2bfJNwe5HOnHiWy5oPS2EUXLOqQZ8ZH5auXV/hrop5bLzmv4SIihEYIISAEAi6oawG6l3ojdeGmrs4FCidrnnpiz7s3XnyR8alP//XA1q1b39ImlrcsXdnTs1Ga3jfzvmze%2blBHnW/Z%2bkXRurBf1VRNgaprUDw6ApVRMFkG5y5yyVkYuQLy6axjmVb6M987otywsREXdEU8kkwplRiGZnIYTi7gT%2bytoU31bQh5Pbjkii5IUgEHd51Ao34KoaqDfNGFF1NR1QKAOclkKvH0/T%2bh65o0LejXPFRwCgiAMVBVA9U0SJF6kEgrqFYPwhh3rHB2z47nx3fuefGALfCL9vYlv7zlllt%2b67D8r%2bCtsGBy23s6bxo%2bmbyjPqJ97IPr65ctbAxW6ookMYlB1TVIqgRfOAxJ9QBEwM5nYWTysAoGHMumD%2bwa0y9ZVqWsagsrIIQQAMPxPKbi%2bSenzQ/MnRmbqWXEC84lVNdUIJtK4VTvODRv85Rwnr%2brMBu/IFJfRyB7qKb7vN5wlefAgZeU2rBCZEaLvt28Dw0IwCmAyDqIqoIwlTDJqzYv6Kpcf9FFC/O53CV79uy5av368636%2bpZjx48fF6%2bn/Bvh9yL4o5csuHRxc%2bSH1WH1o9esqe1a0hTyKjKljAKUEqiaClmVofsD0ANhgEpwrDyMTAqObcHKFXDvU0PgXGDj0ihACCgIJhKGcWo4/cwffWnXZes3//SulYuuWpdITTXpaoh6PAy9p3u5WRCHWts2LrvyT//kkQ3d0QZV5LtCdQ0yYRqC4TBytoQz/QNoqNQh5rNw3OUASHHdWilQSQXRfQCVAehgTKYLF3Z63vWuCxvyeeNSx7GuXbSoo3ffvkND7xjBAiBjl3devKy54kd1FdqfblocXbCsOaiqMiOUEVBCwSQCSZIgazIkReHBaIxQSYWwDRipBKyCCSNTwOMHxlEdVHHp8ioIEFAKZA3H%2btXeiW2nJ%2bZuft9NiRwAfOCGdT8aGzSkgbE9HYPDRwuyrP94SdPVH7z%2bLxsLAHDhebHto6cnVzfUBRfokSgIlVFTX4ucK%2bPk8V40RDQQFHMaVJxjyWaKU0UnUD0gxANCFAAEiiJh0aJOdc2aVbUSFddecH7VB1YsrT/87K6T47fffvvvxNeb3oOf7tkoPXo4vj5n2p%2bPhdQNixv8CHoUMEpA5klllIJJxJEYjUOSRx3AlHz%2bhqYFrQ0qgExiAlbehJnN49hQHHtOzuJDGxpBQMDn87wvnIpDVaTTqso%2b2ivv2H1uVNazsUfq/ni32LJly8t1NyFAdn376k9xIr5a4ATnX3YllJpmECIBEHjovp%2bjWkxjSa0HEMWPorIMKDIKLk/oAf%2bop%2b1CRQ51NBJaqRCiSoScjb84AAdGoRcnDx/B9MjQTkc4n7ui6qrdZNOmN3UYvimCv/3xjb7ZfPZfK73Kbc2VOhQ6bwmEgFECxginlFLGKEyXW4bNnzozW/iBX1OM7uULvjwat6NtER7wEpcbuQIdmspgdDaPZc1BMImAuwJCCDhc4NnjcSys9yMW8Tx9aiT1j6GAd3ImnVNTOVM1CkLm3BUeVXJ8PsWq9HtMl9mNi5qjXzFc3jU0mcS6C1dCbVoG4q8CCAEgcHDHU5Cn%2b9ASVUGE4LYLHDkzl21tqRgHEZ%2b3HWOueuV7btCrznufqtf6KJVRPAk4AAFgDEJkYZsGps4MYLp3779mxhK3b/rE1uzvTbDo6aFfnXny7xfUh28PawLc4YAQsE0ThAsOAkiM0azpwLRdnJ7M3zYWNx78%2bkNHp57u2Sh1rW4J/%2brFM8zO8F8srPEtcxyuTSQNLG4MgIO/TK5hu1AUCeMpG/G8iwUNISjCBndsFCwB23XhcgBCQGIEisSgeySuKzIljKJvYg4NsSDqYyHosRZIDd2A5p/XwsaJnTvhjvYiqMvGof74gMTITRsu6jgdVVUXa79qPPedK0O%2bmvC7alZtuUPzLljgC1aBUg5CCBdilAqeAFLjELODyKdn5g4e6vvshrHz7yY9r19gfUOCv3DL6qsWddZ9r9pPq2zLgnBdUBAIIfKuYWipvEOTOQfjycI3mIwvfvaeg%2bOv9jmPfWmzt384%2b6xXpSsWN4YgUQLOOTgXcDmHEABhDHFToKm5Di8M5NDuySCoUAhwMImBzK8aRT2bniQoOC6ODc1hcXslCGUIBjToXh2eum4g1gIi6wA44ORx4JFHcOZ4/5naau2yS/5sW/%2brybnv/uuCBondUrPkiq%2bGI40IhDwgGIIYPwxnbgyCCxDBMTudOvjkrjOf%2bMN/eHLP6/H3uodcz3WL2murg99ob6xoZ5JMJEkGlSkEF7Bch52ZyNK5rM0lha78s7v2/mD7wcnMq32O6Omhz2d722srPJd21AWbGQUEF%2bBcgIvilxCARSRYnCDklVBRW4MTfePwyi4UiSEQqwIBgR4IIFDXBOGYcEwDB/vn0FLjR3WFFwXHgeO40GQJwspBVnVA9wKEAlRCTVMUai4%2bMDgY/9XWi2%2beOdt3fC7u2nrcvGfri8//ycXsW6nk8PWpTDykm9MQM/3gtgPXscEtCx6ZVMuM1C9ZEDnw6K6h16ygvKYFf%2bWP19Z5/N5vLV9QfYXEiETAKJEIKKVwXQOTI1NTcxnjQ8s9tbsW9Wy1Xo3U/TX7taGJTAUluD7g0TbHQtqlXAjq2hyu48JxObIFBzNzJm%2bI6tRVdZguUFsVgCfWiIRJMX78MKjrwm1ajZyjQAgGr9%2bPUPogcqND8HslNMZ8oBJDumADlCAS9iCbN6FXVCPcsRwkHJtXlQOJsfzw8eM7h4anHjZyqV/6ZT2xcWZR/tWWuhA99Mxj8SVE9XwpSOYuo1xAcA7CBSgVnIDQ3cdmHjwxkLvt019/cupNE3zvJy8PJBX7a6sX1lzPKNUIBaWMgjIGEGBicgoTQyPhW752aO7c3zv82Je8th4LEDPZROZOXaoyu0VT1WqPP7RGlrSK9EQ/8skEdSwXtuUinbVO9o5nOibnCrhsRQ3nlEmy14dwwAM9WgMWrMDEbBax%2bmrIoUUQRAdlDJQSMOMEjj94H%2boqdVBKQShB3nEhSQyaLuPwqQloKsPC5cv6wx3L2kjgNyr5jmXmZvLJuRfnpmcT2emJU%2bnE5HY%2blx1lwXRq0y07fiOKe/r%2bj/tYYvyBjrrgZokVV5/MCEAoJ5RYzxya%2bs6B47m/7fnBjt%2bK/n4rm3bnravkOLP/YnlL9BrGqEYppZRREEpBKDAbn4VG3b23fO3QXM/GjZLWkKmtaQw3xjrXnS88NZsjkWjAF1hQoUjLa0lqUAMcCVSmgnOEVR9cdy%2bc2RRSOfvuhw9M/KAxpK7b0B294%2bRwCjUVOq/weGi6YMFPBCRZgSQr8IaiUIIVoEwtnu5EAP5aCEIgBIcAkC1woBgU88mxLBY0R%2bnIZPLPHtn69KH3XKf8bdXS898DzQ8CBQCTNN1To%2bnRKyvqujghSt4w%2bA2pRDo%2bNjY1%2bfP7r37WLuQO5Q1rOm2mRjdt%2bWZ28JFbxwbHZnhbbYByDggKUCIoBKQ13ZEtcxmrt6cHd70y2f8be7Do6aHPI3HLwubKvwwHtUrKKKVMApUYCLGRTSd4OpF8YGY0%2b%2bWr1rZsruv2fbZ1YfPnulddeEP76ndtrojVd%2btefwOT1UrCFFUQMLg2EaAApQCTITGWHx8e/MHdjw987buPnjo4YjqHazzabHdj4IKBiZxaFfGJvMWJrHkQrI7BtDlCsXoo3hgYU8AYAyHFr6lju%2bFhApm8jWTWhEeTcWY8JRqrg7O9w/FPfe/%2bY/f/ywMneqVkYk93Vyzsj9YsAGMyoTIICYOQKCU0wggJa7ISqvYHq1tq69uXdCxc9q6a2pZrQ4HwHwZk/6XXvHulNnym/ynHKvRSSdoY8KsUKHZosKJHo9dUeFZnpmLZB57u339uLPIywUKA3L3dt6WxKvSl6kpvpSBFcGEilY4jMZNEYjjT54uF52rbGv%2bqc0nXpa3trYurq6PhQEXUy/yVCiAV437M%2b/SMQdgFEOEagkgzIGJyenLyh/98144f/eSZgcMAxMxM3uJMO%2bHXkD1/QWTxsZFUsK0%2bhHTegBKogqLq8EdikLXq4iqat2DBKYy5cWQmxzGdMlEZUDAwkeGdjaGhE4PJv/mPp8d/uXVHfwIAdp%2bcTiYGhwZXdASdcDgUJWq1TUhYIURmBAQgrOgyz7e6UEoVj8/vi9bUBxrb25uaO9ourqyvuV7oHtE3MDWSKththu3A61EgSYwQgKmq5PXpdPGTv6gf2fpU38mzJLOz5H7/f71/Q12l987aaKDa5ZzkCwWayWcgCIGm%2bxCORtDQ2RaprIp1%2bgNBVZYUlRJKmaRA0oMcil%2bASkIIkeGCj0JgVAhMuI7dV5gd//nMxMT3D%2b3YuftHD%2b7a8e%2bP9x4Afr2UBiaSpkL8pyMBai5pCi4ensl562sDxLJsaP4wfFWNYGoIhMwTLAQ4dxGfHcPoyROoDCgYnS3wlhr/meGpbM%2b3Hx147MGnTsV/43wYSEwVxsdG7MT0qK9y4eOMKQnGJIvJ0iwhYhogBiAUQigDIAghAuCEEEEpU1VfqE6raVre2bVmdVtFQx1XIw3EUoJIWgBXdAT9HhLQaJhR0fTofbUvPfhc/xgwf8jd9w/Xt6ka%2bXFLXej8YkTFIUkMlAKyqoBJDIzJLx8mlFJQSCCEZPWKxmFS0z0rhGsWCraRnI2/ND48djA9l8y5ls2oM5vv3/X8wPf2ZSf6%2bvosFEOjV8Wtl3Y3XrwievPSzoqPHxtJVq9cHIMW60Jk5dWQtRqcjayEAGzbwMDhJ2AffgyH%2bpM4vyMyNDqT%2b8Ldj/U%2btHXH4ORrPQMAufzyy5Vbr19XHwiEmhRIHlnXeKAyGqisaVjjCQQ6PD6vTIisAIgApBWAR4hiQARYAAoAciAiCW5bEFYGbj4N2Uxykpq1Xtjb%2b7ORieTfb/nc42eknps3hgDjXxuqqlaAUE4pqCoVlwphFIQAxdicG4KQAcbZKDhPJjIpxOOZof7p3hcm8i9OFZwCdKZY2Vx%2b4qW%2bF2a2bXt9Ml8Nd20/PhwJr/hpPHbrhn1HT1ZXx2ws7QjN5xWK9lBcyhyUEOiUgkkMyYzNT43zE4/uHXriDcgFALFt2zZz27Zt/QDOBhvkk5dfrpz37tW7FU2uMm1T9ft11NU1VTa0LLgwGK1s0HU/qCxXCqE2AloDIUENqAQTvYAUhqT5AR6lCNcqa7yhG%2bzHdss9N675mHR6eHL10s7wxbLEJBBaPJU5QAg3CEEvt8kJxzCm0/lUfGIidfh4b3xsNJkxZJuapuSm6JiauGv/fvt3IfL1sHlj%2b/CPd58%2b3yoE8Nz%2bIFZscMEFB3ddUFb8jwcAwzSgMoECF4is%2bRs6a2Y2XHJDk3n3Ly/8rzxWfHPbNhPbtg0DGD77zZ6ejVLjibW7GUWYW4baXBvz1rV0tIRrqhf6I4GISuMREN4J4SwHGOAIgEiU%2bCtQFfEu2T8cXyHJjbGdR3pnf97aXPd%2bCBEXlrsjXciPzSRTUzNT2eMvDUwNJwpOPqwoBXdSyb6VZP6WlgLku9%2b59rMMMwFVIrDdPIhWDcaKOQXHtsEkCtuyoWs6Cq6NjMV4Q3uIVtd0egb6Br4rBK4i5HdbOa%2bFnp4dDrBjBsDLU6R33nnrfvcHx32JXMYTDXq1Czc1NUVq21d7gpURL3NqhZV/l51J6r/c2b9VU/khAgDrFre3LW8LvLe%2bynN6fCp3oHdwPNUs11t37d/v4Hdc5r8Ptv/Tx6pHa94zcGSX5cnNZVHrncRffGENtGhXMdwFAHAICBBiYeaFB9B7Yoh7V95Gu7q6cGD/fm6ZWsVll533js1qCIDcfl23nE1JclOHP1hdqZx3YiDbsv3Y9LPP7h86IAHA7qN9/buP4uvAuU7yq0Z%2bbytmUtPM06Zbrm14GJWQNQsg1hy4a0NSPS%2b7UkJw2FYBxtwILKHS2oAfhFCEQ2G6bdvD72hXDwEEth63AFh4HDkAD6Ho73HgNzt7St1uRDxBuLpOFECAUQlUxDF9YhsIw3x%2bdv4HCQEVLvLZNIxcEn5/AJRQuJyjpaXlbSm//454mcuy6U3D/FZkOxYlFBBCoFo9DFhZUJGff/usm8QhSRRVyzYjNzsL2DmAELjcweTkZFkN9pQTwRiaTMumYThMAlbVPofVK4Pw6Dqs/kcBexoQKcCYBiEOiJ1FRawaa655H2aPfB%2bUEkiE4NChQ0qp9TgXZXXjSWJmTgrbNqq9o4iE%2bhGtCoNwivxEL%2bz0FBR/PRRPAKRpLeDkwRhDbUsDplUJiZOPQmJNPDOWkUutx7koK4IZhZxNTELNP4Josx%2bSIHAsF0IARm4KvTuOIJt3cOlHdGihEIiqQNVUXhmL0bEzQ8ins9xQpLJalWUljEkl2v/cvdqCmAyFUNimC7tgIzWXRzJZQLQmgKamIEYObUf8zLGziSWqez2obW6AWxigy2r8wVLrcS7KhmAhQDJp4wvruiokr1qcRbZNF8lkHjOzWUhg8MgKvKoGUshh5NiLSE2M4ayb7vH5sOyClXTjhtA9pdXkN1E2s8rxA0su37A48teVflWlXIAyBs4FklkLuiJjYjaHkYk0ZhIFZAsW/F4JZn4GvqpWSKoKUAZZUVDTuTh66QXLx35436OHS60TUCazyv/8J1eG6wPZ5yIepVtXGYhpQdcVzGYtqIoMRwjsGX4/4rkKSBJFUHXw3vPvA6UE4dbFaFy1EUQqduXYLAyjgN79z%2b1av%2bnq20o%2bzlVygu/vuU6ZjMe/0F4jf0YBgeO40MFRsDmyFsepSWDn4AWwrQzyhRlIhMDnicKjRbBpwTGsXm6h48JrEGpeAMvikAONENAxePLoHQaZ%2b9yiRVt%2bqyD7TqKkBO%2b781Z5T9/4Z9oi7J9VOBDgsE0HzLYxnbExkdFwdO5aqHoMrU1taG5sAC/EMTw4gql4EoousLDiUSxdmELXJTdC8leBeWtBJS93HSv90r4XP73ciPznm21zejtQ0j24Pur56IrOuttlYWlCcO5wEIkQPhnPkTMzHPsTVyEUbsbCrvPR1NQBv0dHKBxBTV0j4tOTmCvkcGK8AtX6MDQxhFDTckAKgDJFUEr0SFXVoj39hzLfv/fBkt2GUkovgoQrvCt8uuwTACgBlSSC6WSeJgoEz42vRcBXjWVL1qO6qq6Y%2bKeYLwAwLFt9ETQtCO6oyMeuw8yMQLL/JAglADgFAFnRFjS3t72nlHqWkmBhmtzlLgc4h8sFsgUHiYzFp4JXoSG2DIqsQlIkEAIwKiAxgM0XqBVZQVvrIsiKDom1gXV8BJNDR5FPzeHXeQsOy7BMvIMp11eipH6w5cIVEFxwF5wLTCcLMCqWWh2dK%2bG4otiPRgUYAyQZUBVAkgCJAYoKqJqCQCgCISJYvvoiZPzvRnJ6HLaZA1DscHUdw8V/V4IhhFWsEgPxtIWx6QxswTglGgoFG5blFttjJUCRAEUp/iszwOsDOGwEA5Uo5GUQyiBrXowPDSM1PgAICwC4ZRaS%2bO9KMJFYwRaUC0nBWCKHQs5CQ2MjdxwBCALLdMEYgSwBqgpoKiDLAGOANwhw7sCje%2bHYEjgXqKiqgcUpzjzzXdiFDAA3kU/MHCmljqW1YNcddWw3T5iMXCqHtqgOWfFQ1yXF04wDkkSgKICmFS1Ylovbhe4FXJtDkhQIISGfE3A5ECEzMGfSSB/5Gfjc4NDc8NGDbyzI24eSZtNSiZnD6bRvlOdSFUGZQGYEVFapkxMACIQoHmqqWtx/FQXgFkC8xbkVlwOSpICAIpcVcFwXqZEjCEQ8iJ85BmHnprY9cXD4DQV5G1FSC7bz%2bTNTfYNJM5lB1K%2bCMgJF88J25isuhIBJBJo2b8EawCTAM58vc1zM3wbIkEoIEMZgxFPQNRmqIiE7OYaDMxP50mlYYoKHtd6kablxVSII6BIoCGSPj9rGr8uDjFKoGqB5CGQFkDVAD85fayAIKC02AiZnBQAKDgFVlrksyeAQuY5MpKQX1ZWU4K1b4e4dSD/LOTilBBIjkBSvZJjufHtWcchG1QBZKVqvpAJqcXwZhBIwykAIxdwsQEAguIBwOQTnQ0/%2bqu%2bnyf37S1rMLXk%2buG8mfc/%2b4fQPCQgoSFpWNWpbxT0YlIBJFKpGICnFfVfSACYDmg4AdN6CCYwCgRAUAOGcc5w6NvH9J06nn9561iEuEUpeMnqhL5EO6t54yYoAAAfhSURBVNodbTFflV%2bTuyFIwDQdUFIkTpZo0XplgM4HHALF1y%2b3swKwLcC2BbgjnJm5/L0/eWbyZ1uf7Sv5ve4lt2AAWPfSeO/egfS9WYv0cQGYBQeMSSCEQZKK1svk4rYgqYBjF8NlCjbf0goITmAZHKbNe3/1zOj9yfDJ46XWCygTgnsAToiz7cS08QwBsQo5F0wqtstKCgGTi/vvWZIJKb4GIfOHHeC6gG3BeelM5pHhlLN369bSbg1nURYEA8Bd2wdSiQLfpWqetO1wUEohMwpJImCsSCylxW1CVouvIeZnNIQAAYFra9nescyu7z12LPGGD3yHUDYEA8DS5vrTmuY1XYfDdR3IMoMsE0hy0T2TPfMEK8UARJYJuOAQ8zPIhazsLG9ST5VYjd9AWRGc465WyBvcdR1YpgFd98AfIvAEzh5qxe1BoEi05pFQbMomIJQgnTR5zkZZNZ6UDcECIGfG55bOxhOKpssgRIBQQNEN5HJZGIU8zEIB%2bXwO%2bUIe8dk0LNuGxBgkSQalBNmMgZMj6e5S63IuyobgHT0bma4o5%2blqOGLbLggEfCEXI4MzSM7mUMjbMAwbRsHBXLyAF54bwsxECq5bLLdRAsjEq7RWelfsu3VV2Vhxyf3gs3j88GQwFusmyXhOIhCoafSjuSOAn9z7PFqbwmhqrUCo0oNM2kI6a%2bGJbb3w%2bcPgwgFjDC1NneBAaHlTcNn%2bhFGDc0YBSomyIdjHlCvXX/2Ra46fLiBaq2LthV2wLYHkXAZHUjaOH5sFJQQuFwhUqBCcI59LIZtNg0Lg1Mk96FrQiqqYNxT0SFcC%2bE6pdQLKZIvo6QGtDMhfN/p3t9u2gRWr6lBb24SG%2blb4/IFiw/X85R8So3BMDokytLV0ob1tMRYvugAVAT9GB0/CG1AWR1uCXymXbaIsCJ7d1RljhAaI4IqiWqirawbnDgih0GQJEmPQVRmaIkOTGITNockSgj4VlpmCbWdQV9%2bM5NwMGBEBRWHKbGtNWRx2ZUFwNKi8268ypPv2pDOZOaiqCu64IAAkRqBKBAGfiktWJnBBRwY1oTw0hcErEzC3AGGn4PPo8GgEeqUPtUs3IdbZvEQIUfLOpbLYg70yrQARYIL7xOxRGIXNEEKGEC6Y5MK00vjI%2b%2bMIVchwbQcXM%2bDerQFQkYHPXwNZlcGIgdpQHpWta0EVBV5/9Vtysdzvi7Kw4N6JwiNZw%2bkHQGusl/Injr4I27BhWw7SmVFcvX4cTV3NiHatRnXXCoSjAfzRzRlMTPXDp1F4NQl2bhLr13N4/AFQrWJiZGDyRHHeuLQoC4KTZn4ombWfMB0OlWe0mRMPwbRszExPYm1bDuvW6JArGuDKXnA1BMkfg8dr48MfUsCNJDRVgiQdRd2CKjBvFKbl3mMYdKTUegFl0h98fDTtNEe96bqgtkmRSQXsFKTQYkwn01jmewjhxg7MFUL43pf34tCzI2htrYDHxxGINSIZz4KwKBo6k4hWeeHY%2bemjz%2b74nxf/8bfKguCysGAAyBXokbm8cx93BfdLNo7v%2bQaiie9A98mYnbHwzTv6Iax6qKIFP747ibzRARaIYOkGP1zsQXVDEEIIZOey3xgcik%2bUWp%2bzKAsLBoAjYwnr3qqAUhvWljOZVkmkgOZqCZpXx8NP14HJFfApXsismPGp1fwId2hQNAUenw1GCaiTObLv%2bWe/%2bN5PffdMqfU5i7KxYAKInM33TWaMnfGszRsjOvIWh8MJBqYFKrx%2bMFq8ya8%2bGsHkrAnbdGAVTFRWVyGVTPCJ0dEHj5zoe6PrDN5RlA3BAHDPs32zx8Zzh0MBtZcoDF6PjL4JDiJE0UKJC5lRhH0KHNvBxLEBKJoG13Xg93qOPPHEM0c%2b9U8PTZdaj3NRVgQTQGTz7kMTafthQmjedTgCao57dRWEcwhevPGka00IsqRC1gHuupBl2ZkYn376%2bOnEnrfqKoO3CmVFMABs3Ts4ORm3HnRc0isABL0SNi09jbyZBecugkEBb1sFmpfZiHW0c0rBzTx/aefOPT/86r8/PFZq%2bV%2bJsiMYACw3t/fYSOYBlxMLArP19RmeLmSQyqVw/uYKOOYcoouinBCSFwJ8YjL1wwNbnymLKvIrUTZexLl4sS/hKiqfbG9svSHgdStlVcp3d2KiqTqUDDT753yVgRnGXB8l0IZOF8Y/8alP/q/7dr1Q8h6IV0NZ5CJeDY%2b%2bONa7ZmXgGUpH3t/q8Xg0fcbnr89DNl0IywfhALPJnPHkI31Djz75XG%2bp5X0tlOUWcRZCRO547lCCFwomtW0HrilgzA3DziVRSM9i/5O/oIWct6xGZ1%2bJsia458479lVVtw%2beGUnAdooXilqWhUJiDBOj4zBNK18tdf9nqeV8PZQ1wQBQUbXyWykjgMRcHg4v/oXa2ZETSKVyvLFr48%2b39Cwq6STnG6HsCQ4qAz%2bJ82vzNiqRzxswCiYMC3DUuryQff%2bn1PK9Ecqe4A/3/NuMLHl%2bJTdci%2bF8M86ka%2bBruwog8okVmzbvL7V8b4SyJ5gAIhCM3ZUvFPiqjddg%2bYb3wuWEe1nqflLC8aw3i7InGABqT0xudyzSf3Z0PZfPJFTZc2dppXpzKMtA45XYenyr2LyyK//Qvd/c3Ltvh%2bNR2T0XXXvrQ6WW682g5FXX3wHk/q/8Yy1CAQvbnk1s2bq1LPp/3wj/F7qfyfvkQL9fAAAAAElFTkSuQmCC'/%3e%3c/defs%3e%3c/svg%3e");
+  position: absolute;
+  width: 35px;
+  height: auto;
+  left: -15px;
+  top: 0px;
+  transform-origin: top center;
+  animation: swing 2s infinite;
+}
+
+yt-live-chat-text-message-renderer #author-name {
+  /* animation: author 550ms; */
+  color: #FFFFFF !important;
+  font-weight: bold !important;
+  /* padding: 6px 12px 2px 16px !important; */
+
+  height: 32px;
+
+  /* max-width: 100% !important; */
+
+  padding: 0px 20px 4px 20px;
+  white-space: nowrap !important;
+  /* transform: rotate(-4deg); */
+  border-radius: 10px !important;
+  font-size: 18px !important;
+  top: -28px !important;
+  left: 20px !important;
+  /* margin-top: 32px; */
+  position: absolute;
+
+  background-color: #BE86F1 !important;
+  /* word-spacing: 6px; */
+  letter-spacing: 2px;
+  border: 2px dashed #FFFFFF;
+  z-index: 1;
+  box-shadow: 0px 0px 0px 4px #BE86F1;
+
+}
+
+
+
+
+
+/* Messages. */
+
+
+
+
+
+yt-live-chat-text-message-renderer #message {
+
+
+  color: #BE86F1 !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  font-size: 30px !important;
+  line-height: 1.2em !important;
+  text-indent: 0% !important;
+  word-wrap: break-word;
+  /* IE 5.5-7 */
+  white-space: -moz-pre-wrap;
+  /* Firefox 1.0-2.0 */
+  white-space: pre-wrap;
+  /* -webkit-text-stroke: 0.1px #FCA3B8; */
+  /* text-stroke: 4px navy; */
+  /* text-shadow: rgb(252, 163, 184) 3px 0px 0px, rgb(252, 163, 184) 2.83487px 0.981584px 0px, rgb(252, 163, 184) 2.35766px 1.85511px 0px, rgb(252, 163, 184) 1.62091px 2.52441px 0px, rgb(252, 163, 184) 0.705713px 2.91581px 0px, rgb(252, 163, 184) -0.287171px 2.98622px 0px, rgb(252, 163, 184) -1.24844px 2.72789px 0px, rgb(252, 163, 184) -2.07227px 2.16926px 0px, rgb(252, 163, 184) -2.66798px 1.37182px 0px, rgb(252, 163, 184) -2.96998px 0.42336px 0px, rgb(252, 163, 184) -2.94502px -0.571704px 0px, rgb(252, 163, 184) -2.59586px -1.50383px 0px, rgb(252, 163, 184) -1.96093px -2.27041px 0px, rgb(252, 163, 184) -1.11013px -2.78704px 0px, rgb(252, 163, 184) -0.137119px -2.99686px 0px, rgb(252, 163, 184) 0.850987px -2.87677px 0px, rgb(252, 163, 184) 1.74541px -2.43999px 0px, rgb(252, 163, 184) 2.44769px -1.73459px 0px, rgb(252, 163, 184) 2.88051px -0.838247px 0px; */
+  /* text-shadow: rgb(252, 163, 184) 2px 0px 0px, rgb(252, 163, 184) 1.75517px 0.958851px 0px, rgb(252, 163, 184) 1.0806px 1.68294px 0px, rgb(252, 163, 184) 0.141474px 1.99499px 0px, rgb(252, 163, 184) -0.832294px 1.81859px 0px, rgb(252, 163, 184) -1.60229px 1.19694px 0px, rgb(252, 163, 184) -1.97999px 0.28224px 0px, rgb(252, 163, 184) -1.87291px -0.701566px 0px, rgb(252, 163, 184) -1.30729px -1.51361px 0px, rgb(252, 163, 184) -0.421592px -1.95506px 0px, rgb(252, 163, 184) 0.567324px -1.91785px 0px, rgb(252, 163, 184) 1.41734px -1.41108px 0px, rgb(252, 163, 184) 1.92034px -0.558831px 0px; */
+}
+
+yt-live-chat-text-message-renderer #message img {
+  width: 25px !important;
+  height: auto;
+}
+
+yt-live-chat-text-message-renderer[author-type="member"] #message {
+  color: #DE5678 !important;
+}
+
+yt-live-chat-text-message-renderer[author-type="moderator"] #message {
+  color: #65BEED !important;
+}
+
+yt-live-chat-text-message-renderer[author-type="owner"] #message {
+  color: #9E60D6 !important;
+}
+
+/* SuperChat/Fan Funding Messages. */
+yt-live-chat-paid-message-renderer #author-name,
+yt-live-chat-paid-message-renderer #author-name *,
+yt-live-chat-legacy-paid-message-renderer #event-text,
+yt-live-chat-legacy-paid-message-renderer #event-text * {
+  color: #ffffff !important;
+
+  font-size: 20px !important;
+  line-height: 20px !important;
+}
+
+yt-live-chat-paid-message-renderer #purchase-amount,
+yt-live-chat-paid-message-renderer #purchase-amount *,
+yt-live-chat-legacy-paid-message-renderer #detail-text,
+yt-live-chat-legacy-paid-message-renderer #detail-text * {
+  color: #ffffff !important;
+
+  font-size: 18px !important;
+  line-height: 18px !important;
+}
+
+yt-live-chat-paid-message-renderer #content,
+yt-live-chat-paid-message-renderer #content * {
+  color: #ffffff !important;
+
+  font-size: 18px !important;
+  line-height: 18px !important;
+  /* position: absolute; */
+}
+
+yt-live-chat-paid-message-renderer {
+  margin: 4px 0 !important;
+}
+
+yt-live-chat-legacy-paid-message-renderer {
+  background-color: #0f9d58 !important;
+  margin: 4px 0 !important;
+}
+
+yt-live-chat-text-message-renderer a,
+yt-live-chat-legacy-paid-message-renderer a {
+  text-decoration: none !important;
+}
+
+yt-live-chat-text-message-renderer[is-deleted],
+yt-live-chat-legacy-paid-message-renderer[is-deleted] {
+  display: none !important;
+}
+
+yt-live-chat-ticker-renderer {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+yt-live-chat-ticker-renderer {
+  display: none !important;
+}
+
+
+yt-live-chat-ticker-paid-message-item-renderer,
+yt-live-chat-ticker-paid-message-item-renderer *,
+yt-live-chat-ticker-sponsor-item-renderer,
+yt-live-chat-ticker-sponsor-item-renderer * {
+  color: #ffffff !important;
+
+}
+
+yt-live-chat-mode-change-message-renderer,
+yt-live-chat-viewer-engagement-message-renderer,
+yt-live-chat-restricted-participation-renderer {
+  display: none !important;
+}
+
+yt-live-chat-banner-manager {
+  display: none !important;
+}
+
+
+yt-live-chat-action-panel-renderer,
+yt-live-chat-renderer #action-panel {
+  display: none !important;
+}
+
+
+
+@keyframes message {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+
+/* ------------------------- Superchat Start ------------------------- */
+
+/* Superchat's Card */
+yt-live-chat-paid-message-renderer {
+  width: 500px !important;
+
+}
+
+#card.yt-live-chat-paid-message-renderer {
+  /* border-radius: 4px; */
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); */
+  width: 100% !important;
+  animation: popout 0.5s;
+  transform-origin: bottom left;
+  animation-fill-mode: both;
+  border-radius: 34px;
+  background-color: #FFFFFF;
+  /* border: 6px solid #000000; */
+  padding: 12px;
+  margin-left: 50px !important;
+  margin-top: 30px !important;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 0px 3px #000000, 6px 6px 0px 4px #FED9C9 !important;
+
+  /* transform: scale(1.2) !important; */
+}
+
+#card.yt-live-chat-paid-message-renderer::before {
+
+  content: url("data:image/svg+xml,%3csvg width='20' height='184' viewBox='0 0 20 184' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cline y1='-1' x2='158' y2='-1' transform='matrix(0 -1 -1 0 7.99886 184)' stroke='%23FED9C9' stroke-width='2' stroke-dasharray='4 4'/%3e%3cpath d='M10.2067 2.50629e-06L9.4084 2.84569C9.00914 4.26939 8.18418 5.55735 7.03009 6.55882C5.876 7.56029 4.44053 8.23384 2.89169 8.50061L1.79397e-06 8.99879L2.89429 9.4994C4.43984 9.76877 5.8716 10.4432 7.02264 11.444C8.17369 12.4448 8.99659 13.7307 9.3954 15.1519L10.1937 18L10.9739 15.147C11.3634 13.7249 12.1775 12.4355 13.3211 11.4292C14.4648 10.4228 15.8909 9.7409 17.4334 9.46294L20 8.99879L17.436 8.53706C15.8928 8.25906 14.4661 7.5769 13.3219 6.57009C12.1778 5.56329 11.3635 4.27332 10.9739 2.85055L10.2067 2.50629e-06Z' fill='%23FED9C9'/%3e%3c/svg%3e");
+  position: absolute;
+  left: -5px !important;
+  top: -5px !important;
+  margin: 0 0 -30px -30px !important;
+  width: auto !important;
+  height: 190px !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  /* background-image: url("https://iili.io/mrHE3F.png"); */
+  animation: slidebottom 2s;
+  animation-fill-mode: both;
+  transform-origin: center;
+}
+
+#card.yt-live-chat-paid-message-renderer::after {
+  content: url("data:image/svg+xml,%3csvg  viewBox='0 0 24 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect x='1.92246' y='1.87891' width='2.7188' height='2.7188' transform='rotate(45 1.92246 1.87891)' fill='%23FED9C9'/%3e%3crect x='21.2822' y='1.87891' width='2.7188' height='2.7188' transform='rotate(45 21.2822 1.87891)' fill='%23FED9C9'/%3e%3crect x='11.5441' y='0.128906' width='5.31016' height='5.31016' transform='rotate(45 11.5441 0.128906)' fill='%23FED9C9'/%3e%3c/svg%3e");
+  /* background-color: red; */
+  position: absolute;
+  right: 15px !important;
+  bottom: -42px !important;
+  /* margin: 0 0 -30px -30px !important; */
+  width: 80px !important;
+  height: auto !important;
+
+  animation: slidebottom 2s;
+  animation-fill-mode: both;
+  transform-origin: center;
+  z-index: 99999;
+}
+
+/* Superchat's Author Photo */
+yt-live-chat-paid-message-renderer #author-photo,
+yt-live-chat-legacy-paid-message-renderer #author-photo {
+  display: block !important;
+  overflow: hidden;
+  border-radius: 50%;
+  flex: none;
+  width: 40px;
+  height: 40px;
+  margin: auto 10px !important;
+}
+
+yt-live-chat-paid-message-renderer #author-name,
+yt-live-chat-paid-message-renderer #author-name *,
+yt-live-chat-legacy-paid-message-renderer #event-text,
+yt-live-chat-legacy-paid-message-renderer #event-text * {
+  color: #4a4a4a !important;
+  /* font-family: 'Lexend Deca', sans-serif !important; */
+
+  /* font-size: 20px !important; */
+  line-height: normal !important;
+  margin-top: auto;
+  margin-bottom: 12px !important;
+  font-size: 28px !important;
+  font-weight: bold !important;
+  margin-bottom: auto;
+}
+
+yt-live-chat-paid-message-renderer #purchase-amount,
+yt-live-chat-legacy-paid-message-renderer #purchase-amount,
+yt-live-chat-paid-message-renderer #purchase-amount *,
+yt-live-chat-legacy-paid-message-renderer #detail-text,
+yt-live-chat-legacy-paid-message-renderer #detail-text * {
+  color: #4a4a4a !important;
+  /* text-align: center !important; */
+  /* margin-left: 15px !important; */
+  margin-right: auto !important;
+  /* font-size: 18px !important; */
+  /* line-height: 18px !important; */
+  font-size: 28px !important;
+  /* margin-top: 8px; */
+  /* padding-top: 15px; */
+  margin-bottom: 4px;
+  font-weight: bold !important;
+  /* font-family: 'Lexend Deca', sans-serif !important; */
+}
+
+yt-live-chat-paid-message-renderer #purchase-amount {
+  background-color: white;
+  border-radius: 38px;
+  padding: 12px;
+}
+
+yt-live-chat-legacy-paid-message-renderer #header,
+yt-live-chat-paid-message-renderer #header {
+  font-weight: bold !important;
+  /* background-color: #8D76FD !important; */
+  /* margin-left: auto; */
+  width: 98.5% !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 18px !important;
+  background-color: #FED9C9 !important;
+  /* margin-bottom: 8px; */
+  /* opacity: 0.8; */
+  /* margin-left: 90px !important; */
+  /* margin: 10px 0px !important; */
+  /* padding: 4px !important; */
+  /* border-radius: 16px !important; */
+  /* border-bottom: none !important; */
+  /* font-family: 'Grandstander', cursive !important; */
+  /* background-image: url("data:image/svg+xml,%3csvg width='65' height='52' viewBox='0 0 65 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M63.2146 12.0646C63.3604 11.6394 64.0242 11.2988 64.151 10.7906C64.3346 10.0587 63.765 10.277 63.2056 10.2542C63.0475 9.31767 63.8824 8.30991 63.9408 7.3553C63.9644 6.96025 63.9333 6.3813 63.4554 6.27096C63.1155 6.19445 62.9259 6.47517 62.6317 6.52374C62.1406 4.76324 61.0871 3.21361 59.6328 2.11222C58.1784 1.01082 56.4033 0.418387 54.5794 0.425667C52.7554 0.432948 50.9832 1.03954 49.5343 2.15253C48.0853 3.26551 47.0394 4.82352 46.5568 6.58791C44.3104 5.5523 41.6565 4.82672 38.9082 4.39086C39.2103 3.80867 39.5489 3.30597 38.6243 2.98754C37.7375 2.67598 36.3565 3.94321 35.6365 3.02967C35.4121 2.74536 36.0854 1.78534 36.1381 1.49101C36.3646 0.225009 33.1448 1.62782 32.6734 1.84934C31.7792 2.27223 30.8451 3.04599 29.8278 2.6479C29.7981 2.05771 30.5016 1.60009 30.2414 0.962842C29.9813 0.32559 29.2624 0.649699 28.6633 0.891561C26.6238 1.71129 25.2645 3.31608 24.0691 5.06118C23.2622 5.28201 22.4689 5.52638 21.6971 5.80141C20.3625 6.25013 19.0584 6.78581 17.7932 7.40501C17.3708 5.58082 16.3507 3.9521 14.8959 2.77895C13.4411 1.60579 11.6354 0.955864 9.76719 0.932943C7.899 0.910021 6.07606 1.51543 4.58946 2.65249C3.10286 3.78956 2.03834 5.3927 1.56589 7.20592C1.26994 7.16279 1.07632 6.88677 0.737279 6.97304C0.262034 7.09233 0.242416 7.66924 0.277652 8.06685C0.351767 9.02062 1.20663 10.0103 1.06639 10.9495C0.507855 10.985 -0.065188 10.7794 0.132436 11.5077C0.26797 12.0119 0.937565 12.338 1.09165 12.7609C1.55118 13.0504 2.01378 13.3408 2.47639 13.6311L2.54477 13.7457C1.91092 14.1656 1.68162 14.852 2.24456 15.4762C2.73348 16.0191 3.55038 15.7976 3.98128 16.2304C3.62922 16.5802 3.53914 17.0502 3.96934 17.375C4.47674 17.757 5.58472 17.5906 6.50459 17.3737C5.0653 19.7216 4.12017 22.3394 3.72742 25.0658C3.18793 26.1 2.42189 27.5891 2.03946 28.4267C1.40839 29.2604 0.470326 32.065 1.10439 33.0947C1.73846 34.1245 2.74845 32.4539 3.59957 32.4557C3.75779 33.2198 3.19738 33.9199 2.94007 34.612C2.62014 35.408 2.40563 36.2426 2.30204 37.0942C2.24556 37.716 2.22052 38.731 3.13708 38.6923C3.70979 38.6655 4.1415 37.9275 4.80521 37.8821C4.91482 39.4906 4.17736 41.4021 5.2017 42.8619C6.25544 44.3662 6.44213 42.6151 7.15603 41.744C9.94481 45.8464 14.6243 48.8951 22.0957 50.2881C25.2054 51.0219 28.8315 51.4036 33.0687 51.3576C37.3392 51.3106 40.9817 50.7463 44.1239 49.8103C50.9523 48.1293 55.5103 44.9119 58.2951 40.7316C58.8821 41.6226 59.1505 42.9239 60.0792 41.5433C61.0628 40.0812 60.3279 38.2215 60.3824 36.624C60.3882 36.6023 60.4013 36.5843 60.4087 36.563C61.0567 36.613 61.5008 37.3163 62.0642 37.3302C62.9839 37.3537 62.9393 36.3332 62.8714 35.7129C62.7511 34.8632 62.5202 34.0332 62.1846 33.2441C62.0134 32.8049 61.7322 32.3627 61.5784 31.9017C61.6145 31.651 61.6301 31.3898 61.6604 31.1359C62.4743 31.3068 63.4129 32.6673 63.9929 31.6855C64.6042 30.6424 63.618 27.8609 62.9703 27.0414C62.5794 26.2263 62.1196 25.4093 61.6667 24.5974C61.2466 21.8793 60.2738 19.2775 58.8088 16.9534C59.4633 17.0283 60.0896 17.0176 60.4293 16.7507C60.85 16.4161 60.7541 15.9491 60.3963 15.6073C60.8178 15.1651 61.6392 15.3695 62.1175 14.8148C62.6651 14.1809 62.4221 13.4985 61.7818 13.094C61.8038 13.0551 61.8243 13.0159 61.8464 12.977C62.3049 12.6492 62.7612 12.3606 63.2146 12.0646Z' fill='%23CAD6E2' fill-opacity='0.5'/%3e%3c/svg%3e") !important; */
+  background-repeat: no-repeat !important;
+  background-position: left !important;
+  background-size: contain !important;
+  /* border-bottom: 4px solid #A4095D;
+  border-top: 4px solid #A4095D;
+  border-left: 4px solid #A4095D;
+  border-right: 4px solid #A4095D; */
+  /* border-top-left-radius: 16px !important;
+  border-top-right-radius: 16px !important; */
+  /* border: 3px solid #000000; */
+
+  /* border-top: 4px solid white !important; */
+  /* backdrop-filter: ; */
+}
+
+yt-live-chat-legacy-paid-message-renderer #header-content,
+yt-live-chat-paid-message-renderer #header-content {
+  /* width: 450px; */
+  /* text-align: center !important; */
+  width: 100% !important;
+  display: flex;
+  flex-direction: row;
+  /* background-color: red !important; */
+  /* align-items: center !important; */
+  justify-items: space-between;
+  /* padding: 16px; */
+  /* opa */
+}
+
+/* ------------------------------- Superchat's Content Start -------------------------------  */
+ytd-sponsorships-live-chat-gift-purchase-announcement-renderer {
+  display: none !important;
+}
+
+ytd-sponsorships-live-chat-gift-redemption-announcement-renderer {
+  display: none !important;
+}
+
+ytd-sponsorships-live-chat-gift-redemption-announcement-renderer {
+  display: none !important;
+}
+
+#menu {
+  display: none !important;
+}
+
+yt-live-chat-legacy-paid-message-renderer #content,
+yt-live-chat-paid-message-renderer #content {
+  position: relative;
+  background-color: transparent !important;
+  padding: 0px 8px !important;
+  /* min-height: 20px !important; */
+  width: 100% !important;
+  /* border-top: 4px solid #A4095D;
+  border-bottom: 4px solid #A4095D;
+  border-left: 4px solid #A4095D;
+  border-right: 4px solid #A4095D; */
+  /* border: 4px solid black; */
+  border-radius: 24px !important;
+
+}
+
+/* Simbol Hati */
+
+
+/* ------------------------------- Superchat's Content End -------------------------------  */
+
+/* ------------------- Superchat's Message Start ------------------- */
+
+yt-live-chat-legacy-paid-message-renderer #message,
+yt-live-chat-paid-message-renderer #message {
+  text-align: left !important;
+  /* font-family: 'Kalam', cursive !important; */
+  /* border-radius: 12px; */
+  /* font-family: 'Lexend Deca', sans-serif !important; */
+  font-weight: bolder !important;
+  color: #4a4a4a !important;
+  font-size: 1.5em !important;
+  line-height: normal !important;
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+}
+
+/* Icon in superchat's message */
+yt-live-chat-paid-message-renderer #message>img {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/* ------------------- Superchat's  Message End ------------------- */
+
+
+/* batas */
+yt-live-chat-membership-item-renderer {
+  animation: popout 400ms;
+  transform-origin: left bottom;
+  width: 500px !important;
+}
+
+#card.yt-live-chat-membership-item-renderer {
+  overflow: hidden;
+  font-size: 26px;
+  background-color: #FFFFFF !important;
+  box-shadow: 0px 0px 0px 3px #000000, 6px 6px 0px 4px #C4F2C9 !important;
+
+  /* border-radius: 8px; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px !important;
+  /* border: 6px solid #100C27; */
+  border-radius: 34px;
+  width: 500px !important;
+  padding-bottom: 0px !important;
+  /* box-shadow: -4px 4px 0px 2px #000000; */
+  margin-top: 20px;
+
+  margin-bottom: 30px;
+  /* transform: scale(1.3); */
+
+}
+
+#card.yt-live-chat-membership-item-renderer::before {
+  content: url("data:image/svg+xml,%3csvg width='20' height='184' viewBox='0 0 20 184' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cline y1='-1' x2='158' y2='-1' transform='matrix(0 -1 -1 0 7.99886 184)' stroke='%23C4F2C9' stroke-width='2' stroke-dasharray='4 4'/%3e%3cpath d='M10.2067 2.50629e-06L9.4084 2.84569C9.00914 4.26939 8.18418 5.55735 7.03009 6.55882C5.876 7.56029 4.44053 8.23384 2.89169 8.50061L1.79397e-06 8.99879L2.89429 9.4994C4.43984 9.76877 5.8716 10.4432 7.02264 11.444C8.17369 12.4448 8.99659 13.7307 9.3954 15.1519L10.1937 18L10.9739 15.147C11.3634 13.7249 12.1775 12.4355 13.3211 11.4292C14.4648 10.4228 15.8909 9.7409 17.4334 9.46294L20 8.99879L17.436 8.53706C15.8928 8.25906 14.4661 7.5769 13.3219 6.57009C12.1778 5.56329 11.3635 4.27332 10.9739 2.85055L10.2067 2.50629e-06Z' fill='%23C4F2C9'/%3e%3c/svg%3e");
+  position: absolute;
+  width: 70px;
+  height: auto;
+  left: 40px;
+  top: 0px;
+  z-index: 1;
+  animation: slidebottom 1.5s;
+  /* transform-origin: center; */
+}
+
+
+
+#header.yt-live-chat-membership-item-renderer {
+  position: relative;
+  background-color: #FFFFFF !important;
+  padding: 8px 18px;
+  /* color: #1D4D7B !important; */
+  /* text-shadow: #000000 0px 0px 2px; */
+  /* min-height: 20px; */
+  min-width: 100% !important;
+  /* border: 8px solid #1D4D7B; */
+  display: flex;
+  text-align: center !important;
+  /* border-radius: 16px; */
+  font-weight: bold;
+  flex-direction: row;
+  /* align-items: center; */
+
+
+  /* background-image: url("data:image/svg+xml,%3csvg width='65' height='52' viewBox='0 0 65 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M63.2146 12.0646C63.3604 11.6394 64.0242 11.2988 64.151 10.7906C64.3346 10.0587 63.765 10.277 63.2056 10.2542C63.0475 9.31767 63.8824 8.30991 63.9408 7.3553C63.9644 6.96025 63.9333 6.3813 63.4554 6.27096C63.1155 6.19445 62.9259 6.47517 62.6317 6.52374C62.1406 4.76324 61.0871 3.21361 59.6328 2.11222C58.1784 1.01082 56.4033 0.418387 54.5794 0.425667C52.7554 0.432948 50.9832 1.03954 49.5343 2.15253C48.0853 3.26551 47.0394 4.82352 46.5568 6.58791C44.3104 5.5523 41.6565 4.82672 38.9082 4.39086C39.2103 3.80867 39.5489 3.30597 38.6243 2.98754C37.7375 2.67598 36.3565 3.94321 35.6365 3.02967C35.4121 2.74536 36.0854 1.78534 36.1381 1.49101C36.3646 0.225009 33.1448 1.62782 32.6734 1.84934C31.7792 2.27223 30.8451 3.04599 29.8278 2.6479C29.7981 2.05771 30.5016 1.60009 30.2414 0.962842C29.9813 0.32559 29.2624 0.649699 28.6633 0.891561C26.6238 1.71129 25.2645 3.31608 24.0691 5.06118C23.2622 5.28201 22.4689 5.52638 21.6971 5.80141C20.3625 6.25013 19.0584 6.78581 17.7932 7.40501C17.3708 5.58082 16.3507 3.9521 14.8959 2.77895C13.4411 1.60579 11.6354 0.955864 9.76719 0.932943C7.899 0.910021 6.07606 1.51543 4.58946 2.65249C3.10286 3.78956 2.03834 5.3927 1.56589 7.20592C1.26994 7.16279 1.07632 6.88677 0.737279 6.97304C0.262034 7.09233 0.242416 7.66924 0.277652 8.06685C0.351767 9.02062 1.20663 10.0103 1.06639 10.9495C0.507855 10.985 -0.065188 10.7794 0.132436 11.5077C0.26797 12.0119 0.937565 12.338 1.09165 12.7609C1.55118 13.0504 2.01378 13.3408 2.47639 13.6311L2.54477 13.7457C1.91092 14.1656 1.68162 14.852 2.24456 15.4762C2.73348 16.0191 3.55038 15.7976 3.98128 16.2304C3.62922 16.5802 3.53914 17.0502 3.96934 17.375C4.47674 17.757 5.58472 17.5906 6.50459 17.3737C5.0653 19.7216 4.12017 22.3394 3.72742 25.0658C3.18793 26.1 2.42189 27.5891 2.03946 28.4267C1.40839 29.2604 0.470326 32.065 1.10439 33.0947C1.73846 34.1245 2.74845 32.4539 3.59957 32.4557C3.75779 33.2198 3.19738 33.9199 2.94007 34.612C2.62014 35.408 2.40563 36.2426 2.30204 37.0942C2.24556 37.716 2.22052 38.731 3.13708 38.6923C3.70979 38.6655 4.1415 37.9275 4.80521 37.8821C4.91482 39.4906 4.17736 41.4021 5.2017 42.8619C6.25544 44.3662 6.44213 42.6151 7.15603 41.744C9.94481 45.8464 14.6243 48.8951 22.0957 50.2881C25.2054 51.0219 28.8315 51.4036 33.0687 51.3576C37.3392 51.3106 40.9817 50.7463 44.1239 49.8103C50.9523 48.1293 55.5103 44.9119 58.2951 40.7316C58.8821 41.6226 59.1505 42.9239 60.0792 41.5433C61.0628 40.0812 60.3279 38.2215 60.3824 36.624C60.3882 36.6023 60.4013 36.5843 60.4087 36.563C61.0567 36.613 61.5008 37.3163 62.0642 37.3302C62.9839 37.3537 62.9393 36.3332 62.8714 35.7129C62.7511 34.8632 62.5202 34.0332 62.1846 33.2441C62.0134 32.8049 61.7322 32.3627 61.5784 31.9017C61.6145 31.651 61.6301 31.3898 61.6604 31.1359C62.4743 31.3068 63.4129 32.6673 63.9929 31.6855C64.6042 30.6424 63.618 27.8609 62.9703 27.0414C62.5794 26.2263 62.1196 25.4093 61.6667 24.5974C61.2466 21.8793 60.2738 19.2775 58.8088 16.9534C59.4633 17.0283 60.0896 17.0176 60.4293 16.7507C60.85 16.4161 60.7541 15.9491 60.3963 15.6073C60.8178 15.1651 61.6392 15.3695 62.1175 14.8148C62.6651 14.1809 62.4221 13.4985 61.7818 13.094C61.8038 13.0551 61.8243 13.0159 61.8464 12.977C62.3049 12.6492 62.7612 12.3606 63.2146 12.0646Z' fill='%23CAD6E2'/%3e%3c/svg%3e"); */
+
+}
+
+#header-subtext.yt-live-chat-membership-item-renderer {
+  color: #4a4a4a !important;
+  /* line-height: 6px !important; */
+  margin-top: 8px !important;
+  background-color: #C4F2C9;
+  padding: 4px 8px;
+  border-radius: 34px;
+  width: fit-content;
+  /* margin-left: auto; */
+}
+
+#header-subtext.yt-live-chat-membership-item-renderer::before {
+  content: url("data:image/svg+xml,%3csvg viewBox='0 0 24 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3crect x='1.92246' y='1.88672' width='2.7188' height='2.7188' transform='rotate(45 1.92246 1.88672)' fill='%23C4F2C9'/%3e%3crect x='21.2822' y='1.88672' width='2.7188' height='2.7188' transform='rotate(45 21.2822 1.88672)' fill='%23C4F2C9'/%3e%3crect x='11.5441' y='0.136719' width='5.31016' height='5.31016' transform='rotate(45 11.5441 0.136719)' fill='%23C4F2C9'/%3e%3c/svg%3e");
+  position: absolute;
+  width: 70px;
+  height: auto;
+  top: 8px;
+  right: 50px;
+  /* background-color: red; */
+  animation: slide 1.5s;
+
+}
+
+#header-primary-text.yt-live-chat-membership-item-renderer {
+  color: #4a4a4a !important;
+  font-size: 22px !important;
+  margin-bottom: 12px !important;
+}
+
+#timestamp {
+  display: none;
+}
+
+#author-photo.yt-live-chat-membership-item-renderer {
+  width: 40px;
+  height: 40px;
+
+}
+
+#author-photo.yt-live-chat-membership-item-renderer {
+  display: block;
+  margin-right: 16px;
+  overflow: hidden;
+  border-radius: 50%;
+  flex: none;
+}
+
+#header-content.yt-live-chat-membership-item-renderer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  text-align: left;
+  font-weight: bold !important;
+
+}
+
+
+
+yt-live-chat-author-chip {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+}
+
+.yt-live-chat-membership-item-renderer>#author-name.yt-live-chat-author-chip.member {
+  margin-right: 10px;
+  color: #4a4a4a !important;
+  /* line-height: 0px !important; */
+
+
+}
+
+#header-content-primary-column.yt-live-chat-membership-item-renderer {
+  width: 92%;
+}
+
+#content.yt-live-chat-membership-item-renderer {
+  /* background-color: white; */
+  color: #4a4a4a !important;
+  padding: 8px 16px;
+  /* vertical-align: middle; */
+  word-wrap: break-word;
+  word-break: break-word;
+  font-size: 22px;
+  /* line-height: 20px; */
+  /* text-align: center !important; */
+  /* margin-top: 10px; */
+  border-radius: 16px;
+  /* border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px; */
+
+  font-weight: bold;
+  width: 90%;
+  margin-left: auto;
+  margin-bottom: 10px !important;
+  margin-right: auto;
+  background-color: #C4F2C9 !important;
+  /* border: 3px solid #000000 !important; */
+  background-position: right bottom;
+  background-size: 65px 65px;
+  background-repeat: no-repeat;
+  /* content: url("") !important; */
+  /* background-image: url("https://iili.io/mrHE3F.png"); */
+}
+
+#content.yt-live-chat-membership-item-renderer #message {
+  /* padding-bottom: 5px; */
+  vertical-align: middle !important;
+  font-size: 28px;
+  line-height: normal;
+}
+
+@keyframes message {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+
+  }
+
+  100% {
+    transform: none;
+  }
+}
